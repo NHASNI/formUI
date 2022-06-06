@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: rgb(107, 107, 234);
+    }
+
+    .formINput {
+      background-color: gainsboro;
+    }
+
+    .forget-link {
+      text-decoration: none;
+      color: #000;
+
+
+      
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid ">
+    <form class="w-50 mt-5 m-auto p-5 bg-light rounded">
+      <div>
+        <h3 class="text-center">SIGN IN FORM</h3>
+      </div>
+      <div class="mb-3 mt-4">
+        <input type="email" class="form-control formINput" placeholder="Enter Email" id="exampleInputEmail1"
+          aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <input type="password" class="form-control formINput" placeholder="Enter password" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Keep me signed in</label>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">SIGN IN</button>
+      <div class="text-center mt-3">
+        <a href="#" class="forget-link"><small> Forgot your password?</small></a>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

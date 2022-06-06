@@ -1,0 +1,28 @@
+
+
+.bg-img{    background-image: url(1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+/* opacity:50% ; */
+}
+.container{
+    color: white;
+    /* font-size: 50px; */
+}
+.display1{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'okra', 'Times New Roman', Times, serif;
+    /* filter: brightness(100%) */
+}
+p{
+    font-size: 30px;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-center{
+    padding-top: 150px;
+}
+
